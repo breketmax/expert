@@ -1,0 +1,183 @@
+@media (min-width: 1400px) and (max-width: 1919px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1200px;
+  }
+}
+@media (min-width: 1920px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1500px;
+  }
+}
+
+@media (min-width: 1024px)and (max-width: 1399px){
+  .container, .container-lg, .container-md, .container-sm {
+    max-width: 900px;
+  }
+  body h1{
+    font-size: 52px;
+  }
+  body h2{
+    font-size: 42px;
+  }
+  body h3{
+    font-size: 26px;
+  }
+  .custom-button{
+    font-size: 22px;
+    padding: 5px 30px;
+  }
+  #preview {
+    min-height: calc(90vh - 80px);
+    background-size: 80%;
+  }
+  body::after{
+    top: -120px;
+  }
+  #preview .preview-content button{
+    margin-top: 30px;
+    padding: 5px 40px;
+    letter-spacing: 1px;
+  }
+  header .nav-btn {
+    font-size: 18px;
+  }
+  header ul li a{
+    font-size: 16px;
+  }
+  header ul li {
+    margin-right: 25px;
+  }
+  header img{
+    width: 70px;
+  }
+  #advantages{
+    padding: 100px 0;
+  }
+  #advantages .advantages-list .advantage img {
+    width: 80px;
+  }
+  #advantages .advantages-list .advantage p {
+    font-size: 18px;
+  }
+  #advantages .advantages-list {
+        column-gap: 20px;
+  }
+  .slider-wrapper .slide:not(:last-child) {
+    padding-right: 50px;
+  }
+  .slider-wrapper .slide img {
+    height: 70px;
+  }
+  #insurance-info .steps-block {
+    padding: 70px 0;
+  }
+  #insurance-info .steps-block .number {
+    font-size: 48px;
+    padding: 15px 30px;
+  }
+  
+  #insurance-info .steps-block p{
+    font-size: 18px;
+  }
+  #insurance-info .steps-block .step-item:not(:last-child) .number:after {
+    right: -230%;
+    width: 205%;
+  }
+  #insurance-info .documents-list {
+    margin-top: 40px;
+    margin-left: 76px;
+  }
+  #qAndA .qAndA-block .qAndA-item{
+    padding: 15px 25px;
+  }
+  #qAndA .qAndA-block .qAndA-item h5{
+    font-size: 20px;
+  }
+  #qAndA .qAndA-block .qAndA-item p{
+    font-size: 16px;
+    padding: 0;
+  }
+  #contacts .contacts-block .contact-info .contact-info-item li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  #contacts .contacts-block .map-address img {
+    height: 43vh;
+  }
+  #contacts .contacts-block .contact-info .social-row img {
+    width: 35px;
+  }
+  #contacts .contacts-block .contact-info{
+    row-gap: 20px;
+  }
+  .company-footer {
+    background-color: var(--gray);
+    padding: 30px 0;
+  }
+  .company-footer-block img {
+    width: 120px;
+  }
+  .company-footer-block h3:after {
+    margin-top: 10px;
+    width: 300px
+  }
+  .company-footer-block{
+    row-gap: 10px;
+  }
+  footer .develop-by a{
+    font-size: 16px;
+  }
+  footer .develop-by img{
+    width: 60px;
+  }
+  .company-footer-block h3{
+    line-height: 30px;
+  }
+
+}
+@media (min-width: 768px)and (max-width: 1023px){
+  .container, .container-lg, .container-md, .container-sm {
+    max-width: 680px;
+  }
+  body h1{
+    font-size: 52px;
+  }
+  body h2{
+    font-size: 42px;
+  }
+  body h3{
+    font-size: 26px;
+  }
+  .top-nav{
+    display: none;
+  }
+  header .container{
+    grid-template-columns: auto 1fr auto;
+  }
+  .custom-button{
+    font-size: 22px;
+    padding: 5px 30px;
+  }
+  #preview {
+    min-height: calc(80vh - 80px);
+    background: url(/img/car.png) no-repeat right -150px bottom -5px/85%;
+  }
+  #preview .preview-content button{
+    margin-top: 15px;
+  }
+  #preview .preview-content button{
+    padding:5px 40px;
+  }
+  body::after {
+    width: 60%;
+    top: -212px;
+    right: -110px;
+    transform: skew(-10deg,20deg);
+  }
+  header a{
+    margin: 0 auto;
+  }
+  .burger-menu{
+    display: block;
+  }
+}
