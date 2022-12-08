@@ -921,8 +921,8 @@
     line-height: 14px;
   }
   #insurance-info .steps-block .step-item:not(:last-child) .number:after {
-    right: -105%;
-    width: 80%;
+    right: -130%;
+    width: 100%;
   }
   #insurance-info .steps-block{
     padding: 30px 0;
