@@ -166,7 +166,7 @@ submitBtn.addEventListener("click",()=>{
   }
   if(document.querySelector(`input.error`)) document.querySelector(`input.error`).focus();
 
-  if(isEnable)console.log("submit");
+  if(isEnable) form.submit();
   //form.submit();
 })
 
