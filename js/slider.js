@@ -158,3 +158,5 @@ prevBtn.addEventListener("click",()=>{
   }
   moveWrapper(-counter);
 })
+
+

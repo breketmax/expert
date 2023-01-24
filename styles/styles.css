@@ -495,7 +495,7 @@ z-index: -2;
   row-gap: 40px;
 }
 #contacts .contacts-block .map-address{
-  flex:6;
+  flex:8;
 }
 #contacts .contacts-block .contact-info .social-row a{
   margin-left: 40px;
@@ -508,8 +508,8 @@ z-index: -2;
   background-image: url("/img/map.svg");
   background-repeat: no-repeat;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: -50%;
+  left: 49%;
   width: 30px;
   height: 30px;
 }
@@ -518,7 +518,7 @@ z-index: -2;
 }
 #contacts .contacts-block .map-address img{
   width: 100%;
-  height: 50vh;
+
 }
 #contacts .contacts-block .contact-info .contact-info-item{
   list-style-image: url("/img/contact-list.svg");
